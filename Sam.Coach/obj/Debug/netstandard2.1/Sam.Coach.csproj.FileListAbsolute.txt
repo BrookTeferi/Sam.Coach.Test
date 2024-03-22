@@ -8,3 +8,14 @@ C:\Users\user\Downloads\Compressed\Candidate Tech Test 1\Sam.Coach\bin\Debug\net
 C:\Users\user\Downloads\Compressed\Candidate Tech Test 1\Sam.Coach\bin\Debug\netstandard2.1\Sam.Coach.pdb
 C:\Users\user\Downloads\Compressed\Candidate Tech Test 1\Sam.Coach\obj\Debug\netstandard2.1\Sam.Coach.dll
 C:\Users\user\Downloads\Compressed\Candidate Tech Test 1\Sam.Coach\obj\Debug\netstandard2.1\Sam.Coach.pdb
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\bin\Debug\netstandard2.1\Sam.Coach.deps.json
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\bin\Debug\netstandard2.1\Sam.Coach.dll
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\bin\Debug\netstandard2.1\Sam.Coach.pdb
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\obj\Debug\netstandard2.1\Sam.Coach.csproj.AssemblyReference.cache
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\obj\Debug\netstandard2.1\Sam.Coach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\obj\Debug\netstandard2.1\Sam.Coach.AssemblyInfoInputs.cache
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\obj\Debug\netstandard2.1\Sam.Coach.AssemblyInfo.cs
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\obj\Debug\netstandard2.1\Sam.Coach.csproj.CoreCompileInputs.cache
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\obj\Debug\netstandard2.1\Sam.Coach.sourcelink.json
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\obj\Debug\netstandard2.1\Sam.Coach.dll
+C:\Users\Brook\Source\Repos\Sam.Coach.Test\Sam.Coach\obj\Debug\netstandard2.1\Sam.Coach.pdb

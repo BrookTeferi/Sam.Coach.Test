@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach.Tests\\Sam.Coach.Tests.csproj": {}
+    "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach.Tests\\Sam.Coach.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach.Tests\\Sam.Coach.Tests.csproj": {
+    "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach.Tests\\Sam.Coach.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach.Tests\\Sam.Coach.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach.Tests\\Sam.Coach.Tests.csproj",
         "projectName": "Sam.Coach.Tests",
-        "projectPath": "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach.Tests\\Sam.Coach.Tests.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach.Tests\\Sam.Coach.Tests.csproj",
+        "packagesPath": "C:\\Users\\Brook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brook\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach\\Sam.Coach.csproj": {
-                "projectPath": "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach\\Sam.Coach.csproj"
+              "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach\\Sam.Coach.csproj": {
+                "projectPath": "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach\\Sam.Coach.csproj"
               }
             }
           }
@@ -42,11 +42,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -90,24 +85,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach\\Sam.Coach.csproj": {
+    "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach\\Sam.Coach.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach\\Sam.Coach.csproj",
+        "projectUniqueName": "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach\\Sam.Coach.csproj",
         "projectName": "Sam.Coach",
-        "projectPath": "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach\\Sam.Coach.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Downloads\\Compressed\\Candidate Tech Test 1\\Sam.Coach\\obj\\",
+        "projectPath": "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach\\Sam.Coach.csproj",
+        "packagesPath": "C:\\Users\\Brook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brook\\source\\repos\\Sam.Coach.Test\\Sam.Coach\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brook\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -128,11 +123,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -160,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

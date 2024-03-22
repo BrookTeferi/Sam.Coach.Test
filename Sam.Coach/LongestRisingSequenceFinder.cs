@@ -18,41 +18,50 @@ namespace Sam.Coach
                 return Enumerable.Empty<int>();
 
             var numbersList = numbers.ToList();
-            var dp = new int[numbersList.Count];
-            var prev = new int[numbersList.Count];
+            var lengths = new int[numbersList.Count];
+            var previousIndices = new int[numbersList.Count];
 
+          
             for (int i = 0; i < numbersList.Count; i++)
             {
-                dp[i] = 1;
-                prev[i] = -1;
+                lengths[i] = 1;
+                previousIndices[i] = -1;
 
                 for (int j = 0; j < i; j++)
                 {
-                    if (numbersList[i] > numbersList[j] && dp[i] < dp[j] + 1)
+                    if (numbersList[j] < numbersList[i] && lengths[j] + 1 > lengths[i])
                     {
-                        dp[i] = dp[j] + 1;
-                        prev[i] = j;
+                        lengths[i] = lengths[j] + 1;
+                        previousIndices[i] = j;
                     }
                 }
             }
 
-            int maxIndex = 0;
-            for (int k = 1; k < numbersList.Count; k++)
+            int maxIndex = 0, maxLength = 0;
+            for (int i = 0; i < lengths.Length; i++)
             {
-                if (dp[k] > dp[maxIndex])
-                    maxIndex = k;
+                if (lengths[i] > maxLength)
+                {
+                    maxLength = lengths[i];
+                    maxIndex = i;
+                }
             }
 
-            List<int> sequence = new List<int>();
-            int currentIndex = maxIndex;
-            while (currentIndex != -1)
+        
+            if (maxLength == 1)
             {
-                sequence.Add(numbersList[currentIndex]);
-                currentIndex = prev[currentIndex];
+                return new List<int> { numbersList.Min() };
+            }
+
+            var sequence = new List<int>();
+            while (maxIndex != -1)
+            {
+                sequence.Add(numbersList[maxIndex]);
+                maxIndex = previousIndices[maxIndex];
             }
 
             sequence.Reverse();
-            return sequence;
+            return sequence.AsEnumerable();
         });
     }
 }
